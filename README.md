@@ -1,65 +1,68 @@
-# Projeto Django com SQLite3
-
-Bem-vindo ao projeto Django com SQLite3! Este é um projeto de exemplo que utiliza o Django, um framework web de alto nível para Python, e o SQLite3, um banco de dados leve e integrado...
-
-## Sumário
-
-- [Descrição](#descrição)
-- [Pré-requisitos](#pré-requisitos)
-- [Instalação](#instalação)
+# SEN.AI - Sistema de Análise de Peças
 
 ## Descrição
+SEN.AI é um sistema de análise de peças baseado em inteligência artificial, desenvolvido para automatizar e melhorar o processo de inspeção de qualidade. O sistema utiliza técnicas de visão computacional e aprendizado de máquina para classificar peças como "Boas" ou "Ruins" com base em imagens.
 
-Este projeto é uma aplicação web simples desenvolvida com o framework Django e utiliza o banco de dados SQLite3 para armazenar dados. O objetivo é demonstrar a configuração básica de um projeto Django com uma configuração padrão do SQLite.
+## Funcionalidades Principais
 
-## Pré-requisitos
+1. **Upload e Análise de Imagens**: Os usuários podem fazer upload de imagens de peças para análise.
+2. **Classificação Automática**: O sistema classifica automaticamente as peças como "Boas" ou "Ruins" usando um modelo de IA treinado.
+3. **Visualização de Resultados**: Exibe gráficos e estatísticas sobre as análises realizadas.
+4. **Geração de Relatórios**: Permite gerar relatórios em PDF com informações detalhadas sobre as análises.
+5. **Autenticação de Usuários**: Sistema de login para controle de acesso.
+6. **Interface Responsiva**: Design adaptável para diferentes dispositivos.
+7. **Modo Claro/Escuro**: Opção para alternar entre temas claro e escuro.
 
-Antes de começar, certifique-se de ter o Python e o pip instalados em sua máquina. Recomenda-se também criar um ambiente virtual para gerenciar as dependências do projeto.
+## Tecnologias Utilizadas
 
-## Instalação
+- **Backend**: Django (Python)
+- **Frontend**: HTML, CSS, JavaScript
+- **Banco de Dados**: SQLite
+- **IA/ML**: TensorFlow, Keras
+- **Visualização de Dados**: Matplotlib, Pandas
+- **Geração de PDF**: ReportLab
 
-Siga os passos abaixo para configurar o projeto em seu ambiente local:
+## Dependências Principais
 
-1. **Clone o repositório:**
+- Django
+- TensorFlow
+- Keras
+- Matplotlib
+- Pandas
+- ReportLab
+- NumPy
+- Pillow
 
-    ```bash
-    git clone https://github.com/blueIsaac1/sen-ai
-    cd seu-repositorio
-    ```
-    Caso ocorra algum erro, adicionar .git no final da url!
+## Configuração e Instalação
 
-2. **Crie e ative um ambiente virtual:**
+1. Clone o repositório
+2. Instale as dependências: `pip install -r requirements.txt`
+3. Configure o banco de dados: `python manage.py migrate`
+4. Inicie o servidor: `python manage.py runserver`
 
-    ```bash
-    python -m venv venv
-    source venv/bin/activate   # Para Linux/MacOS
-    venv\Scripts\activate      # Para Windows
-    ```
+## Estrutura do Projeto
 
-3. **Instale as dependências:**
+- `Main/`: Aplicação principal do Django
+- `IA_Imagens/`: Scripts para treinamento e análise de imagens
+- `static/`: Arquivos estáticos (CSS, JS, imagens)
+- `templates/`: Templates HTML
 
-    ```bash
-    pip install -r req.txt
-    ```
+## Uso
 
-4. **Aplique as migrações do banco de dados:**
+1. Faça login no sistema
+2. Navegue até a seção de upload
+3. Faça upload de uma imagem de peça
+4. O sistema analisará a imagem e exibirá o resultado
+5. Visualize estatísticas e gere relatórios conforme necessário
 
-    ```bash
-    python manage.py migrate
-    ```
+## Contribuição
 
-5. **Crie um superusuário para acessar o painel administrativo (opcional):**
+Contribuições são bem-vindas! Por favor, leia o guia de contribuição antes de submeter pull requests.
 
-    ```bash
-    python manage.py createsuperuser
-    ```
+## Licença
 
-6. **Inicie o servidor de desenvolvimento:**
+[Inserir informações de licença aqui]
 
-    ```bash
-    python manage.py runserver
-    ```
+## Contato
 
-7. **Acesse a aplicação:**
-
-    Abra seu navegador e vá para `http://127.0.0.1:8000/auth`. Para acessar o painel administrativo, vá para `http://127.0.0.1:8000/admin/` e faça login com as credenciais do superusuário que você criou.
+[Inserir informações de contato ou links para suporte]
