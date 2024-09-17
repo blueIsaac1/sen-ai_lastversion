@@ -65,4 +65,10 @@ Contribuições são bem-vindas! Por favor, leia o guia de contribuição antes 
 
 ## Contato
 
-[Inserir informações de contato ou links para suporte]
+| Nome           | GitHub                                                        | Função          |
+|----------------|---------------------------------------------------------------|-----------------|
+| Isaac          | [blueIsaac1](https://github.com/blueIsaac1)                   | Desenvolvedor Backend/Web/DB |
+| Renan          | [RenanM1214](https://github.com/RenanM1214)                   | Desenvolvedor da IA |
+| Pedro          | [pedro-b-siqueira](https://github.com/pedro-b-siqueira)       | Desenvolvedor Backend |
+| Rafael         | [sieRleafaR](https://github.com/sieRleafaR)                   | Desenvolvedor Frontend |
+| Luiz Francisco | [Francisco-Neves-15](https://github.com/Francisco-Neves-15)   | Desenvolvedor UX/UI |
